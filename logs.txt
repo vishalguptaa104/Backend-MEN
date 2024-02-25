@@ -14,3 +14,23 @@
 1708890485130:::ffff:127.0.0.1 DELETE : /api/users/65db9916f883842157bad930
 
 1708890489172:::ffff:127.0.0.1 GET : /api/users/65db9916f883842157bad930
+
+1708890915822:::ffff:127.0.0.1 POST : /api/users/
+
+1708890920625:::ffff:127.0.0.1 GET : /api/users/65db9916f883842157bad930
+
+1708890924786:::ffff:127.0.0.1 GET : /api/users/
+
+1708890941995:::ffff:127.0.0.1 PATCH : /api/users/65db9b23baa54bc387a0b93e
+
+1708890947782:::ffff:127.0.0.1 GET : /api/users/
+
+1708890968322:::ffff:127.0.0.1 PATCH : /api/users/65db9b23baa54bc387a0b93e
+
+1708890972436:::ffff:127.0.0.1 GET : /api/users/
+
+1708891057909:::ffff:127.0.0.1 PATCH : /api/users/65db9b23baa54bc387a0b93e
+
+1708891094418:::ffff:127.0.0.1 PATCH : /api/users/65db9b23baa54bc387a0b93e
+
+1708891101880:::ffff:127.0.0.1 GET : /api/users/

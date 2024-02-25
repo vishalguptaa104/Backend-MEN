@@ -13,7 +13,7 @@ const handleCreateNewUser = async (req, res) => {
   // fs.writeFile('./MOCK_DATA.json',JSON.stringify(users), (err,data)=>{
   //     return res.json( {status:"success", id:users.length} )
   // })
-  console.log(body);
+//   console.log(body);
   if (
     !body ||
     !body.first_name ||
@@ -91,7 +91,9 @@ const handleUpdateUserById = async (req, res) => {
     if (!mongoose.isValidObjectId(req.params.id)) {
       return res.status(400).json({ error: "Invalid ID" });
     }
-    await User.findByIdAndUpdate(req.params.id, { lastName: "Changed" });
+    const body = req.body;
+    console.log(body);
+    await User.findByIdAndUpdate(req.params.id, body, {new : true});
     return res.status(200).json({ msg: "success" });
   } catch (error) {
     console.log(error);
